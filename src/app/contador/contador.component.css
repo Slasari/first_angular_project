@@ -1,0 +1,9 @@
+span{
+    display: flex;
+    justify-content: center;
+}
+
+.divContador{
+    display: flex;
+    justify-content: space-evenly
+}
