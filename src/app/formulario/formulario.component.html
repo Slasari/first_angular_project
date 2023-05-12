@@ -4,6 +4,9 @@
     Mostrar en consola
 </button>
 
-<div class="alert alert-primary">
-    Se ha enviado el mensaje
+<div class="alert alert-primary mt-4" *ngIf="openAlert; else ">
+    <p>Se ha enviado el mensaje</p>
+    <button class="btn btn-danger" (click)="openAlert = false">
+        X
+    </button>
 </div>
