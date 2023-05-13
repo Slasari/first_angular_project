@@ -1,5 +1,7 @@
 <div class="container">
   <h1 class="title">{{ title }}</h1>
 
-  <app-formulario-reactivo></app-formulario-reactivo>
+  <input type="text" class="form-control" [(ngModel)]="title">
+
+  <app-children [title]="title"></app-children>
 </div>
