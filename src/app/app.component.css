@@ -1,3 +1,5 @@
-h1{
+.title{
+    color:red;
     text-align: center;
+    margin-top: 2vh;
 }
