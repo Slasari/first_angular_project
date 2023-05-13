@@ -6,6 +6,10 @@ import { ContadorComponent } from './contador/contador.component';
 import { BotonesComponent } from './botones/botones.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { BuclesComponent } from './bucles/bucles.component';
+import { SwitchComponent } from './switch/switch.component';
+import { FormularioPComponent } from './formulario-p/formulario-p.component';
+
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,10 +17,13 @@ import { BuclesComponent } from './bucles/bucles.component';
     ContadorComponent,
     BotonesComponent,
     FormularioComponent,
-    BuclesComponent
+    BuclesComponent,
+    SwitchComponent,
+    FormularioPComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
